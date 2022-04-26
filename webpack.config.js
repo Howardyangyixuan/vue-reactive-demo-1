@@ -8,7 +8,7 @@ module.exports = {
     hot: true,
     open: true
   },
-  entry: ['./examples/example.js'],
+  entry: ['./examples/example2.js'],
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',

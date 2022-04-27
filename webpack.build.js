@@ -3,10 +3,10 @@ const path = require('path')
 
 module.exports = {
   mode: 'production',
-  entry: ['./examples/example.js'],
+  entry: ['./examples/example2.js'],
   output: {
     filename: 'main.js',
-    path: path.resolve('./dist')
+    path: path.resolve('./docs')
   },
   plugins: [
     new HtmlWebpackPlugin({
